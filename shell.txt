@@ -1,0 +1,21 @@
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~$ mkdir simplon
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~$ cd simplon
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mkdir jaime_le_shell
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mkdir test1 test2 test3 test4 test5 test6
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ touch le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mv test1 le_shell_cest_trop_cool
+mv: impossible d'écraser le non répertoire 'le_shell_cest_trop_cool' par le répertoire 'test1'
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mv test1 le_shell_cest_trop_cool/
+mv: impossible d'accéder à 'le_shell_cest_trop_cool/': N'est pas un dossier
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mv  test1 le_shell_cest_trop_cool/
+mv: impossible d'accéder à 'le_shell_cest_trop_cool/': N'est pas un dossier
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ sudo cp -R test1 le_shell_cest_trop_cool
+cp: impossible d'écraser le non répertoire 'le_shell_cest_trop_cool' par le répertoire 'test1'
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ touch test1 test2 test3 test4 test5 test6 le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mv  test1 le_shell_cest_trop_cool/
+mv: impossible d'accéder à 'le_shell_cest_trop_cool/': N'est pas un dossier
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mv  test1 le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ mv  test5  le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ cp  test2  le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ cp  test6  le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/simplon$ 
