@@ -96,4 +96,56 @@ sudo: cp-R : commande introuvable
 remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo cpv-R test2 test6
 sudo: cpv-R : commande introuvable
 remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo cp -r test2 test6
-remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ 
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~$ cd jaime_le_shell
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ mv test1 le_shell_cest_trop_cool
+mv: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp  test1 le_shell_cest_trop_cool
+cp: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp -l test1 /le_shell_cest_trop_cool
+cp: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp "test1" /le_shell_cest_trop_cool
+cp: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp -v "test1" /le_shell_cest_trop_cool
+cp: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp /test1 /le_shell_cest_trop_cool
+cp: impossible d'évaluer '/test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp test1 /le_shell_cest_trop_cool
+cp: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp test2 /le_shell_cest_trop_cool
+cp: -r non spécifié ; omission du répertoire 'test2'
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ cp -v  test2 /le_shell_cest_trop_cool
+cp: -r non spécifié ; omission du répertoire 'test2'
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo 
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo mv test1 
+[sudo] Mot de passe de remysimpson : 
+mv: opérande de fichier cible manquant après 'test1'
+Saisissez « mv --help » pour plus d'informations.
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo mv test1 le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo mv test2 le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo mv test6 le_shell_cest_trop_cool
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo mv test1 le_shell_cest_trop_cool
+mv: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo -R test1 le_shell_cest_trop_cool
+sudo : option invalide -- 'R'
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo cp -R test1 le_shell_cest_trop_cool
+cp: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo mv test1 le_shell_cest_trop_cool
+mv: impossible d'évaluer 'test1': Aucun fichier ou dossier de ce type
+remysimpson@remysimpson-HP-Pavilion-17-Notebook-PC:~/jaime_le_shell$ sudo mv test1  le_shell_cest_trop_cool
+
